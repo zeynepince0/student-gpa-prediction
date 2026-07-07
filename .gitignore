@@ -1,0 +1,18 @@
+# Veri seti (En büyük engel bu)
+college_students_habits_1M.csv
+
+# Model dosyaları (GitHub LFS kullanmıyorsan bunlar da hata verir)
+*.pkl
+scaler.pkl
+feature_names.pkl
+model_catboost.pkl
+model_lightgbm.pkl
+model_xgboost.pkl
+model_randomforest.pkl
+model_metrics.pkl
+model_linearregression.pkl
+
+# Python gereksizleri
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
